@@ -7,7 +7,7 @@ import yt_dlp
 app = Flask(__name__)
 
 # ── Config ───────────────────────────────────────────────────────────────────
-DOWNLOAD_FOLDER = os.path.join(os.path.expanduser("~"), "Downloads", "YT_4K")
+DOWNLOAD_FOLDER = "downloads"
 FFMPEG_PATH = "/tmp/ffmpeg/ffmpeg" if os.path.exists("/tmp/ffmpeg/ffmpeg") else "ffmpeg"
 os.makedirs(DOWNLOAD_FOLDER, exist_ok=True)
 
@@ -455,7 +455,7 @@ function openFolder() { fetch('/open-folder'); }
 
 # ── Launch ────────────────────────────────────────────────────────────────────
 if __name__ == "__main__":
-    threading.Timer(1.2, lambda: webbrowser.open("http://localhost:5000")).start()
-    print("🚀 Server running → http://localhost:5000")
-    print(f"📁 Downloads → {DOWNLOAD_FOLDER}")
-    app.run(debug=False, port=5000, threaded=True)
+    # Render ke liye port aur host setup
+    port = int(os.environ.get("PORT", 5000))
+    print(f"🚀 Server running on port {port}")
+    app.run(host='0.0.0.0', port=port, debug=False, threaded=True)
