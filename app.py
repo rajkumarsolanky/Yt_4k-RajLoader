@@ -8,7 +8,7 @@ app = Flask(__name__)
 
 # ── Config ───────────────────────────────────────────────────────────────────
 DOWNLOAD_FOLDER = os.path.join(os.path.expanduser("~"), "Downloads", "YT_4K")
-FFMPEG_PATH = r"C:\Users\rajku\AppData\Local\Microsoft\WinGet\Packages\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\ffmpeg-8.0.1-full_build\bin\ffmpeg.exe"
+FFMPEG_PATH = "/tmp/ffmpeg/ffmpeg" if os.path.exists("/tmp/ffmpeg/ffmpeg") else "ffmpeg"
 os.makedirs(DOWNLOAD_FOLDER, exist_ok=True)
 
 # ── Shared progress state ────────────────────────────────────────────────────
