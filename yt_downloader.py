@@ -1,11 +1,3 @@
-"""
-YouTube 4K WebM Downloader - Flask Web App
-==========================================
-Install:  pip install flask yt-dlp
-Run:      python app.py
-Browser:  http://localhost:5000
-"""
-
 import os
 import threading
 import webbrowser
