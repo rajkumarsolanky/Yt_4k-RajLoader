@@ -1,11 +1,5 @@
-Yeh raha aapke **YouTube 4K Downloader** project ke liye ek behtareen `README.md` file ka content. Isme maine features, installation, aur usage ko professional tarike se cover kiya hai.
 
----
-
-### **README.md Content for GitHub**
-
-```markdown
-# ⚡ YT 4K Downloader (Flask & yt-dlp)
+# ⚡ YT 4K Rajloader (Flask & yt-dlp)
 
 Ek modern, sleek aur user-friendly YouTube video downloader jo **4K (2160p)** tak ki videos download kar sakta hai. Yeh tool Python, Flask aur `yt-dlp` ka use karta hai, jisme real-time progress tracking ke liye **Server-Sent Events (SSE)** ka istemal kiya gaya hai.
 
@@ -27,17 +21,7 @@ Ek modern, sleek aur user-friendly YouTube video downloader jo **4K (2160p)** ta
 1. **Python 3.x**
 2. **FFmpeg:** Videos aur Audio ko merge karne ke liye system mein FFmpeg hona zaroori hai.
    - [FFmpeg Download karein](https://ffmpeg.org/download.html) aur iska path script mein update karein.
-
----
-
-## 📥 Installation & Setup
-
-### 1. Repository Clone Karein
-```bash
-git clone [https://github.com/your-username/yt-4k-downloader.git](https://github.com/your-username/yt-4k-downloader.git)
-cd yt-4k-downloader
-
-```
+     
 
 ### 2. Dependencies Install Karein
 
@@ -104,7 +88,7 @@ Yahi project "Educational Purposes" ke liye banaya gaya hai. YouTube ke Terms of
 ---
 
 ### **Kuch Tips GitHub ke liye:**
-1. **Repository Name:** Iska naam `yt-4k-downloader-web` ya `ultimate-yt-dlp-gui` rakh sakte hain.
+1. **Repository Name:** Iska naam `yt-4k-rajloader-web` ya `ultimate-yt-dlp-gui` rakh sakte hain.
 2. **FFmpeg Disclaimer:** README mein yeh zaroor batayein ki FFmpeg ke bina 1080p se upar ki videos merge nahi hongi (sirf video aayegi audio nahi, ya process fail ho jayega).
 3. **Tags:** Repository mein `python`, `flask`, `yt-dlp`, `youtube-downloader`, aur `4k-video` jaise tags zaroor add karein.
 
