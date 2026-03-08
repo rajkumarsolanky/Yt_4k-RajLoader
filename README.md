@@ -47,7 +47,7 @@ FFMPEG_PATH = r"C:\path\to\your\ffmpeg.exe"
 ### 3. Run the Application
 
 ```bash
-python app.py
+python yt_4K-Rajloader.py
 ```
 
 The app will automatically open in your default browser at:
