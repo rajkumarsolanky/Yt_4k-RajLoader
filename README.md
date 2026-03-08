@@ -81,5 +81,5 @@ Yahi project "Educational Purposes" ke liye banaya gaya hai. YouTube ke Terms of
 
 ---
 
-**Made with ❤️ by RAJ KUMAR**
+**Made with ❤️ by Raj Kumar**
 
