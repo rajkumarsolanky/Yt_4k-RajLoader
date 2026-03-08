@@ -81,15 +81,5 @@ Yahi project "Educational Purposes" ke liye banaya gaya hai. YouTube ke Terms of
 
 ---
 
-**Made with ❤️ by [Aapka Naam]**
+**Made with ❤️ by RAJ KUMAR**
 
-```
-
----
-
-### **Kuch Tips GitHub ke liye:**
-1. **Repository Name:** Iska naam `yt-4k-rajloader-web` ya `ultimate-yt-dlp-gui` rakh sakte hain.
-2. **FFmpeg Disclaimer:** README mein yeh zaroor batayein ki FFmpeg ke bina 1080p se upar ki videos merge nahi hongi (sirf video aayegi audio nahi, ya process fail ho jayega).
-3. **Tags:** Repository mein `python`, `flask`, `yt-dlp`, `youtube-downloader`, aur `4k-video` jaise tags zaroor add karein.
-
-```
